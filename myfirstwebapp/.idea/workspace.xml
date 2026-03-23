@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="First Spring MVC Controller, @ResponseBody, @Controller">
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <updated>1774188375514</updated>
       <workItem from="1774188377933" duration="103000" />
       <workItem from="1774293088604" duration="765000" />
-      <workItem from="1774293876534" duration="1660000" />
+      <workItem from="1774293876534" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -99,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774188441496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Spring MVC Controller, @ResponseBody, @Controller">
+      <option name="closed" value="true" />
+      <created>1774295600747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774295600747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating Spring Boot Web Application with Spring Initializr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Spring Boot Web Application with Spring Initializr" />
+    <MESSAGE value="First Spring MVC Controller, @ResponseBody, @Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Spring MVC Controller, @ResponseBody, @Controller" />
   </component>
 </project>

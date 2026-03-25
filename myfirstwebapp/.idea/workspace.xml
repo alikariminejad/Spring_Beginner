@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Added Bootstrap CSS framework to Spring Boot Project using webjars">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Formatted JSP pages with Bootstrap CSS framework">
+      <change afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/addTodo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/sayHello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/sayHello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/todoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/todoList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/welcome.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1774293876534" duration="3116000" />
       <workItem from="1774331488062" duration="1352000" />
       <workItem from="1774422903849" duration="8844000" />
-      <workItem from="1774459742710" duration="6353000" />
+      <workItem from="1774459742710" duration="7551000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -225,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774465431676</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Formatted JSP pages with Bootstrap CSS framework">
+      <option name="closed" value="true" />
+      <created>1774466182263</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774466182263</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +265,7 @@
     <MESSAGE value="Tested SessionAttributes" />
     <MESSAGE value="Adding JSTL to Spring Boot Project and Showing Todos in a Table" />
     <MESSAGE value="Added Bootstrap CSS framework to Spring Boot Project using webjars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bootstrap CSS framework to Spring Boot Project using webjars" />
+    <MESSAGE value="Formatted JSP pages with Bootstrap CSS framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted JSP pages with Bootstrap CSS framework" />
   </component>
 </project>

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Created LoginController and login view">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Captured QueryParams using @RequestParam and First Look at ModelMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <workItem from="1774293088604" duration="765000" />
       <workItem from="1774293876534" duration="3116000" />
       <workItem from="1774331488062" duration="1352000" />
-      <workItem from="1774422903849" duration="1986000" />
+      <workItem from="1774422903849" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774423623762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Captured QueryParams using @RequestParam and First Look at ModelMap">
+      <option name="closed" value="true" />
+      <created>1774425165060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774425165060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +165,7 @@
     <MESSAGE value="Enhancing Spring MVC Controller to provide HTML response" />
     <MESSAGE value="Redirect to a JSP using Spring Boot - Controller, @ResponseBody &amp; View" />
     <MESSAGE value="Created LoginController and login view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created LoginController and login view" />
+    <MESSAGE value="Captured QueryParams using @RequestParam and First Look at ModelMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Captured QueryParams using @RequestParam and First Look at ModelMap" />
   </component>
 </project>

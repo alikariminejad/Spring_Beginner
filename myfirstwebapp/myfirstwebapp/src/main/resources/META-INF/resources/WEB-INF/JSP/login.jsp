@@ -3,8 +3,9 @@
     Login
 </TITLE>
 <BODY>
-<P>
-    This is the login page
-</P>
+
+<h2>This is the login page</h2>
+<h3>Welcome ${name}!</h3>
+
 </BODY>
 </HTML>

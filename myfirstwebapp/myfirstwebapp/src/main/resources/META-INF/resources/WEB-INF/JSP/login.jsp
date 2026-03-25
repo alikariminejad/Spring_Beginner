@@ -4,7 +4,7 @@
 </TITLE>
 <BODY>
 
-<h2>login page</h2>
+<h2>Login Page</h2>
 <form method="post">
     Name: <input type="text" name="name">
     Password: <input type="password" name="password">

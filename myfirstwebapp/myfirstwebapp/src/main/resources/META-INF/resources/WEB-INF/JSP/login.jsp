@@ -4,8 +4,12 @@
 </TITLE>
 <BODY>
 
-<h2>This is the login page</h2>
-<h3>Welcome ${name}!</h3>
+<h2>login page</h2>
+<form method="post">
+    Name: <input type="text" name="name">
+    Password: <input type="password" name="password">
+    <input type="submit">
+</form>
 
 </BODY>
 </HTML>

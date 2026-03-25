@@ -2,8 +2,10 @@
 <TITLE>
     Login
 </TITLE>
-<BODY>
+<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" >
 
+<body>
+<div class="container">
 <h2>Login Page</h2>
 <pre>${errorMessage}</pre>
 <form method="post">
@@ -11,6 +13,6 @@
     Password: <input type="password" name="password">
     <input type="submit">
 </form>
-
-</BODY>
+</div>
+</body>
 </HTML>

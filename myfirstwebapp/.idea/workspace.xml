@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Tested SessionAttributes">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Adding JSTL to Spring Boot Project and Showing Todos in a Table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/todoList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/todoList.jsp" afterDir="false" />
@@ -101,7 +101,7 @@
       <workItem from="1774293876534" duration="3116000" />
       <workItem from="1774331488062" duration="1352000" />
       <workItem from="1774422903849" duration="8844000" />
-      <workItem from="1774459742710" duration="4039000" />
+      <workItem from="1774459742710" duration="5385000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -207,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774461909633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding JSTL to Spring Boot Project and Showing Todos in a Table">
+      <option name="closed" value="true" />
+      <created>1774464080165</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774464080165</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +246,7 @@
     <MESSAGE value="Getting started with Todo Features - Creating Todo and TodoService" />
     <MESSAGE value="Created first version of List Todos Page" />
     <MESSAGE value="Tested SessionAttributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested SessionAttributes" />
+    <MESSAGE value="Adding JSTL to Spring Boot Project and Showing Todos in a Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding JSTL to Spring Boot Project and Showing Todos in a Table" />
   </component>
 </project>

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Enhanced TodoService to add the todo">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Added Validations using Spring Boot Starter Validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/addTodo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/META-INF/resources/WEB-INF/JSP/addTodo.jsp" afterDir="false" />
     </list>
@@ -103,7 +104,8 @@
       <workItem from="1774331488062" duration="1352000" />
       <workItem from="1774422903849" duration="8844000" />
       <workItem from="1774459742710" duration="7685000" />
-      <workItem from="1774509125021" duration="3546000" />
+      <workItem from="1774509125021" duration="5029000" />
+      <workItem from="1774514435295" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -249,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774511467769</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Validations using Spring Boot Starter Validation">
+      <option name="closed" value="true" />
+      <created>1774513230115</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774513230115</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +295,7 @@
     <MESSAGE value="Formatted JSP pages with Bootstrap CSS framework" />
     <MESSAGE value="Created a new View for adding todo" />
     <MESSAGE value="Enhanced TodoService to add the todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhanced TodoService to add the todo" />
+    <MESSAGE value="Added Validations using Spring Boot Starter Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Validations using Spring Boot Starter Validation" />
   </component>
 </project>

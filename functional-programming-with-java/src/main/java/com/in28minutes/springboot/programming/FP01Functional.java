@@ -9,9 +9,9 @@ public class FP01Functional {
         printEvenNumbersInListFunctional(numbers);
     }
 
-public static boolean isEven(int number){
-        return number % 2 == 0;
-}
+    public static boolean isEven(int number){
+            return number % 2 == 0;
+    }
 
     private static void printAllNumbersInListFunctional(List<Integer> numbers) {
        numbers.stream().forEach(System.out::println); // Method Reference
@@ -19,7 +19,7 @@ public static boolean isEven(int number){
 
     private static void printEvenNumbersInListFunctional(List<Integer> numbers) {
         numbers.stream()
-                .filter(FP01Functional::isEven) // filter - Only Allow Even numbers
+                .filter(number-> number%2==0) // Lambda expression
                 .forEach(System.out::println); // Method Reference
     }
 }

@@ -1,14 +1,6 @@
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
-<html>
-<title>
-    Add todo
-</title>
-<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" >
-<link href="webjars\bootstrap-datepicker\1.9.0\css\bootstrap-datepicker.standalone.css" rel="stylesheet">
-
-<body>
 <div class="container">
 <h1>
     Adding a todo
@@ -29,15 +21,11 @@
         <input type="submit" class="btn btn-success" />
     </form:form>
 </div>
-<script src="webjars\bootstrap\5.1.3\js\bootstrap.min.js"></script>
-<script src="webjars\jquery\3.6.0\jquery.min.js"></script>
-<script src="webjars\bootstrap-datepicker\1.9.0\js\bootstrap-datepicker.min.js" ></script>
+<%@ include file="common/footer.jspf"%>
 <script type="text/javascript">
     $('#targetdate').datepicker({
         format: 'yyyy-mm-dd',
         startDate: '+1d'
     });
 </script>
-</body>
-</html>
 

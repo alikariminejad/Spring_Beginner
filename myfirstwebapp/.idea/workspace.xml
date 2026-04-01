@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Added a Navigation Bar and Implementing JSP Fragments">
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/login/LoginController.java" afterDir="false" />
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Prepared for Spring Security">
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1774509125021" duration="5029000" />
       <workItem from="1774514435295" duration="848000" />
       <workItem from="1774619839034" duration="3111000" />
-      <workItem from="1775030500828" duration="5583000" />
+      <workItem from="1775030500828" duration="6190000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -306,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775039796435</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Prepared for Spring Security">
+      <option name="closed" value="true" />
+      <created>1775040353639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1775040353639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +332,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating Spring Boot Web Application with Spring Initializr" />
     <MESSAGE value="First Spring MVC Controller, @ResponseBody, @Controller" />
     <MESSAGE value="Enhancing Spring MVC Controller to provide HTML response" />
     <MESSAGE value="Redirect to a JSP using Spring Boot - Controller, @ResponseBody &amp; View" />
@@ -349,6 +356,7 @@
     <MESSAGE value="Implemented update todo" />
     <MESSAGE value="Added Target Date Field to Todo Page" />
     <MESSAGE value="Added a Navigation Bar and Implementing JSP Fragments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Navigation Bar and Implementing JSP Fragments" />
+    <MESSAGE value="Prepared for Spring Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepared for Spring Security" />
   </component>
 </project>

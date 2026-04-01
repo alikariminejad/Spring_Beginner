@@ -1,6 +1,5 @@
 package com.in28minutes.springboot.myfirstwebapp.security;
 
-import org.jspecify.annotations.Nullable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.User;
@@ -16,11 +15,18 @@ public class SpringSecurityConfiguration {
 
     @Bean
     public InMemoryUserDetailsManager createUserDetailsManager(){
+
+        UserDetails userDetails1 = createNewUser("admin", "1234");
+        UserDetails userDetails2 = createNewUser("Ali", "1234");
+        return new InMemoryUserDetailsManager(userDetails1, userDetails2);
+    }
+
+    private UserDetails createNewUser(String username, String password) {
         Function<String, String> passwordEncoder = input -> passwordEncoder().encode(input);
         UserDetails userDetails =  User.builder().passwordEncoder(passwordEncoder)
-                                    .username("admin")
-                                    .password("1234").roles("ADMIN","USER").build();
-        return new InMemoryUserDetailsManager(userDetails);
+                                    .username(username)
+                                    .password(password).roles("ADMIN","USER").build();
+        return userDetails;
     }
 
     @Bean

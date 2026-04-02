@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Refactoring and Removing Hardcoding of User Id">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/security/SpringSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/security/SpringSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,8 @@
       <workItem from="1774514435295" duration="848000" />
       <workItem from="1774619839034" duration="3111000" />
       <workItem from="1775030500828" duration="7779000" />
-      <workItem from="1775065611058" duration="3035000" />
+      <workItem from="1775065611058" duration="4278000" />
+      <workItem from="1775117828331" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -342,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775067963123</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Setting up a New User for Todo Application">
+      <option name="closed" value="true" />
+      <created>1775068824729</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1775068824729</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redirect to a JSP using Spring Boot - Controller, @ResponseBody &amp; View" />
     <MESSAGE value="Created LoginController and login view" />
     <MESSAGE value="Captured QueryParams using @RequestParam and First Look at ModelMap" />
     <MESSAGE value="Logging with Slf4j" />
@@ -385,6 +393,7 @@
     <MESSAGE value="Prepared for Spring Security" />
     <MESSAGE value="Setting up Spring Security with Spring Boot Starter Security" />
     <MESSAGE value="Refactoring and Removing Hardcoding of User Id" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and Removing Hardcoding of User Id" />
+    <MESSAGE value="Setting up a New User for Todo Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up a New User for Todo Application" />
   </component>
 </project>

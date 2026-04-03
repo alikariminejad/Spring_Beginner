@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="H2 database is working now">
-      <change afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/data.sql" afterDir="false" />
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Made Todo an Entity and Populated Todo Data into H2">
+      <change afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoControllerJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,6 +74,9 @@
       <recent name="C:\projects\Spring_Beginner\myfirstwebapp\myfirstwebapp\src\main\resources\META-INF\resources\WEB-INF\JSP\common" />
       <recent name="C:\projects\Spring_Beginner\myfirstwebapp\myfirstwebapp\src\main\resources\META-INF\resources\WEB-INF\JSP" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.in28minutes.springboot.myfirstwebapp.todo" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MyfirstwebappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -115,7 +120,7 @@
       <workItem from="1775117828331" duration="4302000" />
       <workItem from="1775196891071" duration="1313000" />
       <workItem from="1775199097734" duration="6686000" />
-      <workItem from="1775234444992" duration="1513000" />
+      <workItem from="1775234444992" duration="3031000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -381,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775205150346</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Made Todo an Entity and Populated Todo Data into H2">
+      <option name="closed" value="true" />
+      <created>1775236231997</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1775236231997</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a login form" />
     <MESSAGE value="Displayed Login Credentials in a JSP using Model" />
     <MESSAGE value="Added hard coded validation of userid and password" />
     <MESSAGE value="Getting started with Todo Features - Creating Todo and TodoService" />
@@ -424,6 +436,7 @@
     <MESSAGE value="Added Spring Boot Starter Data JPA and getting H2 database ready" />
     <MESSAGE value="Configuring Spring Security to Get H2 console Working" />
     <MESSAGE value="H2 database is working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="H2 database is working now" />
+    <MESSAGE value="Made Todo an Entity and Populated Todo Data into H2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Todo an Entity and Populated Todo Data into H2" />
   </component>
 </project>

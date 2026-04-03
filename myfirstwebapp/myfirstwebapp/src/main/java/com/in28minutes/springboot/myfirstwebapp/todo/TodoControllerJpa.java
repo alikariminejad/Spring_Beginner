@@ -14,20 +14,24 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import java.time.LocalDate;
 import java.util.List;
 
-//@Controller
+@Controller
 @SessionAttributes(names = {"name", "password"})
-public class TodoController {
+public class TodoControllerJpa {
 
-    public TodoController(TodoService todoService) {
+    public TodoControllerJpa(TodoService todoService, TodoRepository todoRepository) {
+
         this.todoService = todoService;
+        this.todoRepository = todoRepository;
     }
 
     TodoService todoService = new TodoService();
+    private TodoRepository todoRepository;
+
 
     @RequestMapping("todo-list")
     public String todoList(ModelMap model) {
         String username = (String) getLoggedinUsername(model);
-        List allTodos = todoService.findByUsername(username);
+        List allTodos = todoRepository.findByUsername(username);
         model.addAttribute("todos", allTodos);
         return "todoList";
     }

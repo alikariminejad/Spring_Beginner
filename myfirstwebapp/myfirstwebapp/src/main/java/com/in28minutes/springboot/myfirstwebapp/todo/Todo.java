@@ -1,23 +1,36 @@
 package com.in28minutes.springboot.myfirstwebapp.todo;
 
 import java.time.LocalDate;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
-
+@Entity
 public class Todo {
+    public Todo(int id, String username, String description, LocalDate targetdate, boolean done) {
+        super();
+        this.id = id;
+        this.username = username;
+        this.description = description;
+        this.targetdate = targetdate;
+        this.done = done;
+    }
+
+    @Id
+    @GeneratedValue
     private int id;
+//    @Column(name = "name")
     private String username;
     @Size(min =5, message = "Enter at least 5 characters")
     private String description;
     private LocalDate targetdate;
     private boolean done;
 
-    public Todo(int id, String username, String description, LocalDate targetdate, boolean done) {
-        this.id = id;
-        this.username = username;
-        this.description = description;
-        this.targetdate = targetdate;
-        this.done = done;
+    public Todo() {
+
     }
 
     public int getId() {

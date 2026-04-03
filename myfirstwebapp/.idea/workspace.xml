@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Created TodoRepository &amp; Connecting List Todos page from H2 database">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Connecte All Todo App Features to H2 Databasee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoControllerJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/java/com/in28minutes/springboot/myfirstwebapp/todo/TodoControllerJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,9 @@
       <workItem from="1775117828331" duration="4302000" />
       <workItem from="1775196891071" duration="1313000" />
       <workItem from="1775199097734" duration="6686000" />
-      <workItem from="1775234444992" duration="3649000" />
+      <workItem from="1775234444992" duration="4463000" />
+      <workItem from="1775245499973" duration="33000" />
+      <workItem from="1775245561945" duration="1913000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -399,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775244213053</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Connected All Todo App Features to H2 Databasee">
+      <option name="closed" value="true" />
+      <created>1775244995873</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1775244995873</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added hard coded validation of userid and password" />
     <MESSAGE value="Getting started with Todo Features - Creating Todo and TodoService" />
     <MESSAGE value="Created first version of List Todos Page" />
     <MESSAGE value="Tested SessionAttributes" />
@@ -442,6 +451,7 @@
     <MESSAGE value="H2 database is working now" />
     <MESSAGE value="Made Todo an Entity and Populated Todo Data into H2" />
     <MESSAGE value="Created TodoRepository &amp; Connecting List Todos page from H2 database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created TodoRepository &amp; Connecting List Todos page from H2 database" />
+    <MESSAGE value="Connected All Todo App Features to H2 Databasee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected All Todo App Features to H2 Databasee" />
   </component>
 </project>

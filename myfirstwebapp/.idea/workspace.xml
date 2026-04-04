@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="tested showing the sql">
+    <list default="true" id="4dac0508-7cec-4ea3-add0-0b7d0dfca53e" name="Changes" comment="Connected Todo App to MySQL database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstwebapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,8 @@
       <workItem from="1775234444992" duration="4463000" />
       <workItem from="1775245499973" duration="33000" />
       <workItem from="1775245561945" duration="2211000" />
-      <workItem from="1775285246655" duration="2152000" />
+      <workItem from="1775285246655" duration="2297000" />
+      <workItem from="1775298647897" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Spring Boot Web Application with Spring Initializr">
       <option name="closed" value="true" />
@@ -419,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775247777446</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Connected Todo App to MySQL database">
+      <option name="closed" value="true" />
+      <created>1775287587411</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1775287587411</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created first version of List Todos Page" />
     <MESSAGE value="Tested SessionAttributes" />
     <MESSAGE value="Adding JSTL to Spring Boot Project and Showing Todos in a Table" />
     <MESSAGE value="Added Bootstrap CSS framework to Spring Boot Project using webjars" />
@@ -462,6 +468,7 @@
     <MESSAGE value="Created TodoRepository &amp; Connecting List Todos page from H2 database" />
     <MESSAGE value="Connected All Todo App Features to H2 Databasee" />
     <MESSAGE value="tested showing the sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested showing the sql" />
+    <MESSAGE value="Connected Todo App to MySQL database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected Todo App to MySQL database" />
   </component>
 </project>

@@ -82,4 +82,26 @@ public class UserJpaResource {
 
         return ResponseEntity.created(location).build();
     }
+
+    @GetMapping("/jpa/users/{user_id}/posts/{post_id}")
+    public EntityModel<Post> retrievePostById(@PathVariable("user_id") int userId, @PathVariable("post_id") int postId){
+        Optional<Post> postOptional = postRepository.findByIdAndUserId(postId, userId);
+        if(postOptional.isEmpty()){
+            throw new PostNotFoundException(String.format("Post with ID %d not found for user with ID %d", postId, userId));
+
+        }
+        Post post = postOptional.get();
+        EntityModel<Post> entityModel = EntityModel.of(post);
+
+        WebMvcLinkBuilder postsLink = linkTo(methodOn(this.getClass()).retrievePostsForUser(userId));
+        WebMvcLinkBuilder userLink = linkTo(methodOn(this.getClass()).retrieveUserById(userId));
+        WebMvcLinkBuilder selfLink = linkTo((methodOn(this.getClass()).retrievePostById(userId, postId)));
+
+        entityModel.add(selfLink.withSelfRel());
+        entityModel.add(postsLink.withRel("all-posts"));
+        entityModel.add(userLink.withRel("user"));
+        entityModel.add(Link.of("http://localhost:8080/h2-console").withRel("database"));
+
+        return entityModel;
+    }
 }

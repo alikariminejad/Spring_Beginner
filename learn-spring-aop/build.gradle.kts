@@ -14,11 +14,15 @@ java {
 }
 
 repositories {
-	mavenCentral()
+	maven{ url = uri("https://mvnhub.ir/") }
 }
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+//	implementation("org.springframework.boot:spring-boot-starter-aop")
+	implementation("org.aspectj:aspectjrt")
+	implementation("org.aspectj:aspectjweaver")
+	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }

@@ -12,26 +12,26 @@ import org.springframework.context.annotation.Configuration;
 public class LoggingAspect {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Before("execution(* com.in28minutes.learn_spring_aop.aopexample.*.*.*(..))")
+    @Before("com.in28minutes.learn_spring_aop.aopexample.aspects.CommonPointcutConfig.allPackageConfigUsingBean()")
     public void logMethodCallBeforeExecution(JoinPoint joinPoint){
         logger.info("Before Aspect - {} is called with these arguments: {}", joinPoint, joinPoint.getArgs());
     }
 
-    @After("execution(* com.in28minutes.learn_spring_aop.aopexample.*.*.*(..))")
+    @After("com.in28minutes.learn_spring_aop.aopexample.aspects.CommonPointcutConfig.businessAndDataPackageConfig()")
     public void logMethodCallAfterExecution(JoinPoint joinPoint){
         logger.info("After Aspect - {} is called with these arguments: {}", joinPoint, joinPoint.getArgs());
     }
 
-    @AfterThrowing(value = "execution(* com.in28minutes.learn_spring_aop.aopexample.*.*.*(..))",throwing = "exception")
+    @AfterThrowing(value = "com.in28minutes.learn_spring_aop.aopexample.aspects.CommonPointcutConfig.businessPackageConfig()",throwing = "exception")
     public void logMethodCallAfterException(JoinPoint joinPoint, Exception exception){
         logger.info("After Exception Aspect - {} is called with these arguments: {} and this exception: {}", joinPoint,
                                                                                                         joinPoint.getArgs(),
                                                                                                         exception);
     }
 
-    @AfterReturning(value = "execution(* com.in28minutes.learn_spring_aop.aopexample.*.*.*(..))",returning = "resultValue")
+    @AfterReturning(value = "com.in28minutes.learn_spring_aop.aopexample.aspects.CommonPointcutConfig.dataPackageConfig()",returning = "resultValue")
     public void logMethodCallAfterSuccessfulExcecution(JoinPoint joinPoint, Object resultValue){
-        logger.info("After Exception Aspect - {} is called with these arguments: {} and returned: {}", joinPoint,
+        logger.info("After Excecution Aspect - {} is called with these arguments: {} and returned: {}", joinPoint,
                 joinPoint.getArgs(),
                 resultValue);
     }

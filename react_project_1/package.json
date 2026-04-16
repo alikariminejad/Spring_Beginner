@@ -1,0 +1,22 @@
+{
+  "name": "first-npm-project",
+  "version": "1.0.0",
+  "description": "Spring boot 3 and Spring framework 6, Following along this [course](https://www.udemy.com/course/spring-boot-and-spring-framework-tutorial-for-beginners/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alikariminejad/Spring_Beginner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alikariminejad/Spring_Beginner/issues"
+  },
+  "homepage": "https://github.com/alikariminejad/Spring_Beginner#readme",
+  "dependencies": {
+    "jquery": "^4.0.0"
+  }
+}

@@ -9,12 +9,18 @@ export default function Counter() {
         setCount(count + by)
     }
 
+    function resetCounter() {
+        setCount(0)
+    }
+
     return (
         <>
         <span className="totoalCount">{count}</span>
         <CounterButton by={1} incrementMethod={incrementCounterParentFunction} />
         <CounterButton by={2} incrementMethod={incrementCounterParentFunction} />
         <CounterButton by={3} incrementMethod={incrementCounterParentFunction} />
+        <button className='resetButton'
+                    onClick={resetCounter}>Reset</button>
         </>
     )
 }

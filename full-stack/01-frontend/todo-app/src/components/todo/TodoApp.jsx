@@ -9,7 +9,8 @@ export default function TodoApp() {
                 <Routes>
                     <Route path='/' element={<LoginComponent/>}></Route>
                     <Route path='/login' element={<LoginComponent />}></Route>
-                    <Route path='/welcome' element={<WelcomeComponent/>}></Route>
+                    <Route path='/welcome' element={<WelcomeComponent />}></Route>
+                    <Route path='*' element={<ErrorComponent/>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>
@@ -47,6 +48,7 @@ function LoginComponent() {
     
     return (
         <div className="Login">
+            <h1>Time to Login!</h1>
             {showSuccessMessage && <div className='successMessage'>Authenticated Successfully</div>}
             {showErrorMessage && <div className='errorMessage'>Authentication Failed. Please check your credentials.</div>}
             <div className='LoginForm'>
@@ -68,6 +70,19 @@ function LoginComponent() {
 
 function WelcomeComponent() {
     return (
-        <div className="Welcome">Welcome Component</div>
+        <div className="WelcomeComponent">
+            <h1>Welcome to this website</h1>
+            <div>Welcome Component</div>
+        </div>
+    )
+}
+
+function ErrorComponent() {
+    return (
+        <div className="ErrorComponent">
+            <h1>We are working really hard!</h1>
+            <div>Apologies for the 404</div>
+            <div>Reach out to our team at ABC-DEF-GHIJ.</div>
+        </div>
     )
 }

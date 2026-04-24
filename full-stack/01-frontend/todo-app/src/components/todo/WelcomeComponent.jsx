@@ -1,13 +1,15 @@
 import { useParams, Link } from 'react-router-dom'
 import axios from 'axios'
+import { useState } from 'react'
 
 
 export default function WelcomeComponent() {
     
     const { username } = useParams()
+    const [message, setMessage] = useState(null)
     
     function callHelloWorldRestApi() {
-        axios.get('http://localhost:8080/hello-world')
+        axios.get('http://localhost:8080/hello-world-bean')
             .then((response) => successfulResponse(response))
             .catch((error) => errorResponse(error))
             .finally(() => console.log('cleanup'))
@@ -15,6 +17,7 @@ export default function WelcomeComponent() {
 
     function successfulResponse(response) {
         console.log(response)
+        setMessage(response.data.message)
     }
 
     function errorResponse(error) {
@@ -29,6 +32,7 @@ export default function WelcomeComponent() {
                     Call Hello World
                 </button>
             </div>
+            <div className='text-info'>{message}</div>
         </div>
     )
 }

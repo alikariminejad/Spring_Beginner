@@ -28,12 +28,12 @@ public class TodoService {
                 todo -> todo.getUsername().equalsIgnoreCase(username);
         return todos.stream().filter(predicate).toList();
     }
-
+    
     public Todo addTodo(String username, String description, LocalDate targetDate, boolean done) {
-        Todo todo = new Todo(++todosCount,username,description,targetDate,done);
-        todos.add(todo);
-        return todo;
-    }
+		Todo todo = new Todo(++todosCount,username,description,targetDate,done);
+		todos.add(todo);
+		return todo;
+	}
 
     public void deleteById(int id) {
         Predicate<? super Todo> predicate = todo -> todo.getId() == id;

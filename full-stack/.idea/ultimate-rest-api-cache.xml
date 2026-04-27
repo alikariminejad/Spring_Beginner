@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UltimateRestApiCache">
+    <cachedApis>
+      <api method="GET" url="/basicauth" className="com.in28minutes.rest.webservices.restful_web_services.helloworld.HelloWorldController" methodName="basicAuthCheck" moduleName="restful-web-services" />
+      <api method="GET" url="/hello-world" className="com.in28minutes.rest.webservices.restful_web_services.helloworld.HelloWorldController" methodName="helloWorld" moduleName="restful-web-services" />
+      <api method="GET" url="/hello-world-bean" className="com.in28minutes.rest.webservices.restful_web_services.helloworld.HelloWorldController" methodName="helloWorldBean" moduleName="restful-web-services" />
+      <api method="GET" url="/hello-world/path-variable/{name}" className="com.in28minutes.rest.webservices.restful_web_services.helloworld.HelloWorldController" methodName="helloWorldPathVariable" moduleName="restful-web-services">
+        <params>
+          <param name="name" value="test" type="PATH" dataType="String" />
+        </params>
+      </api>
+      <api method="GET" url="/users/{username}/todos" className="com.in28minutes.rest.webservices.restful_web_services.todo.TodoResource" methodName="retrieveTodos" moduleName="restful-web-services">
+        <params>
+          <param name="username" value="test" type="PATH" dataType="String" />
+        </params>
+      </api>
+      <api method="GET" url="/users/{username}/todos/{id}" className="com.in28minutes.rest.webservices.restful_web_services.todo.TodoResource" methodName="retrieveTodo" moduleName="restful-web-services">
+        <params>
+          <param name="username" value="test" type="PATH" dataType="String" />
+          <param name="id" value="1" type="PATH" dataType="int" />
+        </params>
+      </api>
+      <api method="DELETE" url="/users/{username}/todos/{id}" className="com.in28minutes.rest.webservices.restful_web_services.todo.TodoResource" methodName="deleteTodo" moduleName="restful-web-services">
+        <params>
+          <param name="username" value="test" type="PATH" dataType="String" />
+          <param name="id" value="1" type="PATH" dataType="int" />
+        </params>
+      </api>
+      <api method="PUT" url="/users/{username}/todos/{id}" className="com.in28minutes.rest.webservices.restful_web_services.todo.TodoResource" methodName="updateTodo" moduleName="restful-web-services">
+        <params>
+          <param name="username" value="test" type="PATH" dataType="String" />
+          <param name="id" value="1" type="PATH" dataType="int" />
+          <param name="body" value="{&#13;&#10;  &quot;id&quot; : 0,&#13;&#10;  &quot;username&quot; : &quot;&quot;,&#13;&#10;  &quot;description&quot; : &quot;&quot;,&#13;&#10;  &quot;targetDate&quot; : &quot;2025-01-01 12:00:00&quot;,&#13;&#10;  &quot;done&quot; : true&#13;&#10;}" type="BODY" dataType="Todo" />
+        </params>
+      </api>
+      <api method="POST" url="/users/{username}/todos" className="com.in28minutes.rest.webservices.restful_web_services.todo.TodoResource" methodName="createTodo" moduleName="restful-web-services">
+        <params>
+          <param name="username" value="test" type="PATH" dataType="String" />
+          <param name="body" value="{&#13;&#10;  &quot;id&quot; : 0,&#13;&#10;  &quot;username&quot; : &quot;&quot;,&#13;&#10;  &quot;description&quot; : &quot;&quot;,&#13;&#10;  &quot;targetDate&quot; : &quot;2025-01-01 12:00:00&quot;,&#13;&#10;  &quot;done&quot; : true&#13;&#10;}" type="BODY" dataType="Todo" />
+        </params>
+      </api>
+    </cachedApis>
+  </component>
+</project>

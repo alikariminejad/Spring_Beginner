@@ -12,10 +12,10 @@ const apiClient = axios.create(
         baseURL: 'http://localhost:8080'
     }
 )
-export const retrieveHelloWorldPathVariable = (name) => apiClient.get(`/hello-world/path-variable/${name}`,
+export const retrieveHelloWorldPathVariable = (name, token) => apiClient.get(`/hello-world/path-variable/${name}`,
     {
         headers: {
-            Authorization: 'Basic YWRtaW46YWRtaW4='
+            Authorization: token
         }
     })
 

@@ -8,23 +8,23 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
-public class BasicAuthenticationSecurtiryConfiguration {
-
-    @Bean
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        return
-            http
-                    .cors(Customizer.withDefaults())
-                    .authorizeHttpRequests(auth -> auth
-                            .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                            .anyRequest().authenticated())
-                    .httpBasic(Customizer.withDefaults())
-                    .sessionManagement(
-                session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                    .csrf(csrf -> csrf.disable())
-                    .build();
-    }
-
-
-}
+//@Configuration
+//public class BasicAuthenticationSecurtiryConfiguration {
+//
+//    @Bean
+//    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+//        return
+//            http
+//                    .cors(Customizer.withDefaults())
+//                    .authorizeHttpRequests(auth -> auth
+//                            .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+//                            .anyRequest().authenticated())
+//                    .httpBasic(Customizer.withDefaults())
+//                    .sessionManagement(
+//                session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+//                    .csrf(csrf -> csrf.disable())
+//                    .build();
+//    }
+//
+//
+//}

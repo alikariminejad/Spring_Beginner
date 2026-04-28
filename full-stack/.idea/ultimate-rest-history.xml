@@ -3,10 +3,47 @@
   <component name="UltimateRestHistory">
     <items>
       <historyItem>
-        <option name="timestamp" value="1777307344797" />
-        <request url="http://localhost:8080/basicauth" bodyType="none">
+        <option name="timestamp" value="1777382558645" />
+        <request url="localhost:8080/users/admin/todos/1" authType="bearer">
+          <bodyContent>{
+    &quot;username&quot; : &quot;admin&quot;,
+    &quot;password&quot;: &quot;admin&quot;
+}</bodyContent>
+          <authContent>
+            <entry key="token" value="eyJraWQiOiIxZTljMjQ2MS0yMzIyLTQwOWItYjBhZS0wZjk0NmU5YTQ2ZTgiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3NzczODc4MTQsImlhdCI6MTc3NzM4MjQxNCwic2NvcGUiOiJST0xFX1VTRVIgRkFDVE9SX1BBU1NXT1JEIn0.nfLRroGY7ah4s15xJGs7SvpeXPawwi3D3tXucK7YOi9u7V7jkFcO8QesGBXazQCa75P7ly9rEu0Z2FGVqVy40YNPsIMy6dIiR9AY75Q2quOoJSq99Te_tnnvhNkzmsi_43xQJltRb0EZAUIQvdCdkllmL65RKilzZ3sMnPkGiD3cWMoHjMQHgkND36WqDfniVwIF5fK8tLsCkeUB038iKmhVmJY7w-vRk3QeQdw-WYwEYrYCb6nvMPLPidcg_G05tjgAhsnxMt_w-2OK5-V5Q9548gtfZWm2fnNKb3BiLFCldC5j5n1eCWpoNK3pwDQH6v1ei2tRgjnXWBG2L_3Uiw" />
+          </authContent>
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1777382540488" />
+        <request method="POST" url="localhost:8080/users/admin/todos/1" authType="bearer">
+          <bodyContent>{
+    &quot;username&quot; : &quot;admin&quot;,
+    &quot;password&quot;: &quot;admin&quot;
+}</bodyContent>
+          <authContent>
+            <entry key="token" value="eyJraWQiOiIxZTljMjQ2MS0yMzIyLTQwOWItYjBhZS0wZjk0NmU5YTQ2ZTgiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3NzczODc4MTQsImlhdCI6MTc3NzM4MjQxNCwic2NvcGUiOiJST0xFX1VTRVIgRkFDVE9SX1BBU1NXT1JEIn0.nfLRroGY7ah4s15xJGs7SvpeXPawwi3D3tXucK7YOi9u7V7jkFcO8QesGBXazQCa75P7ly9rEu0Z2FGVqVy40YNPsIMy6dIiR9AY75Q2quOoJSq99Te_tnnvhNkzmsi_43xQJltRb0EZAUIQvdCdkllmL65RKilzZ3sMnPkGiD3cWMoHjMQHgkND36WqDfniVwIF5fK8tLsCkeUB038iKmhVmJY7w-vRk3QeQdw-WYwEYrYCb6nvMPLPidcg_G05tjgAhsnxMt_w-2OK5-V5Q9548gtfZWm2fnNKb3BiLFCldC5j5n1eCWpoNK3pwDQH6v1ei2tRgjnXWBG2L_3Uiw" />
+          </authContent>
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1777382414404" />
+        <request method="POST" url="localhost:8080/authenticate">
+          <bodyContent>{
+    &quot;username&quot; : &quot;admin&quot;,
+    &quot;password&quot;: &quot;admin&quot;
+}</bodyContent>
+        </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1777382404869" />
+        <request method="POST" url="localhost:8080/authenticate" bodyType="none">
           <bodyContent />
         </request>
+      </historyItem>
+      <historyItem>
+        <option name="timestamp" value="1777307344797" />
+        <request url="http://localhost:8080/basicauth" bodyType="none" />
       </historyItem>
     </items>
   </component>

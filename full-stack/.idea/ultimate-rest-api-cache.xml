@@ -40,6 +40,11 @@
           <param name="body" value="{&#13;&#10;  &quot;id&quot; : 0,&#13;&#10;  &quot;username&quot; : &quot;&quot;,&#13;&#10;  &quot;description&quot; : &quot;&quot;,&#13;&#10;  &quot;targetDate&quot; : &quot;2025-01-01 12:00:00&quot;,&#13;&#10;  &quot;done&quot; : true&#13;&#10;}" type="BODY" dataType="Todo" />
         </params>
       </api>
+      <api method="POST" url="/authenticate" className="com.in28minutes.rest.webservices.restful_web_services.jwt.JwtAuthenticationController" methodName="generateToken" moduleName="restful-web-services">
+        <params>
+          <param name="body" value="{ }" type="BODY" dataType="JwtTokenRequest" />
+        </params>
+      </api>
     </cachedApis>
   </component>
 </project>

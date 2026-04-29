@@ -18,7 +18,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
-import org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.OAuth2ResourceServerConfigurer;
+import org.springframework.security.config.annotation.web.configurers.HeadersConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -47,7 +47,7 @@ public class JwtSecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         return httpSecurity
                 .csrf(AbstractHttpConfigurer::disable) // (1)
-                .sessionManagement(
+                .headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin))                .sessionManagement(
                         session ->
                                 session.sessionCreationPolicy(
                                         SessionCreationPolicy.STATELESS)) // (2)
@@ -56,6 +56,8 @@ public class JwtSecurityConfig {
                                 auth.requestMatchers("/authenticate", "/actuator", "/actuator/*")
                                         .permitAll()
                                         .requestMatchers(HttpMethod.OPTIONS,"/**")
+                                        .permitAll()
+                                        .requestMatchers("/h2-console/**")
                                         .permitAll()
                                         .anyRequest()
                                         .authenticated()) // (3)
@@ -133,5 +135,4 @@ public class JwtSecurityConfig {
         return (((jwkSelector, securityContext)
                 -> jwkSelector.select(jwkSet)));
     }
-
 }

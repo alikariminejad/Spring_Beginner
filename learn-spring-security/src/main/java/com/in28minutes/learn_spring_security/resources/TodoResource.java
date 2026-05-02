@@ -1,7 +1,11 @@
 package com.in28minutes.learn_spring_security.resources;
 
+import jakarta.annotation.security.RolesAllowed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PostAuthorize;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -12,8 +16,8 @@ public class TodoResource {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     private static final List<Todo> TODO_LIST =
-            List.of(new Todo("admin", "learn AWS"),
-                    new Todo("admin", "Learn MicroService"));
+            List.of(new Todo("user", "learn AWS"),
+                    new Todo("user", "Learn MicroService"));
 
     @GetMapping("/todos")
     public List<Todo> retrieveAllTodos(){
@@ -21,6 +25,10 @@ public class TodoResource {
     }
 
     @GetMapping("/users/{username}/todos")
+    @PreAuthorize("hasRole('USER') and #username==authentication.name")
+    @PostAuthorize("returnObject.username == 'user'")
+    @RolesAllowed({"ADMIN","USER"})
+    @Secured({"ROLE_ADMIN", "ROLE_USER"})
     public Todo retrieveTodosForSpecificUser(@PathVariable String username){
         return TODO_LIST.get(0);
     }

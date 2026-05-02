@@ -30,7 +30,7 @@ import java.util.UUID;
 
 import com.nimbusds.jose.jwk.RSAKey;
 
-@Configuration
+//@Configuration
 public class JwtSecurityConfiguration {
 
     @Bean
